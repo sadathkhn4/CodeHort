@@ -1,0 +1,10 @@
+* {
+    font-family: Whitney, sans-serif;
+}
+
+.DropMenu {
+    background: #fff;
+    color: #04395e;
+    transition: all linear 0.3s;
+}
+

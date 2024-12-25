@@ -1,0 +1,88 @@
+
+.dashboad {
+    width: auto;
+    height: 15rem;
+    background-color: antiquewhite;
+}
+
+.groupContainer {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 20px; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f5f1;
+    
+}
+
+.chart{
+
+}
+
+
+
+.prob {
+    text-decoration: none;
+}
+
+.challenge_tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 95%;
+}
+
+.challenge_tile:hover {
+    transform: translateY(-5px); 
+}
+
+.checkbox {
+    margin-left: auto;
+}
+
+.challenge_tile span {
+    word-wrap:break-word;
+}
+
+.group_body{
+    padding-bottom: 5%;
+    flex: 1;
+}
+
+.group_body_cont{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.listofchallenges{
+    width: 98%;
+    max-height: 40rem;
+    overflow-y: auto;
+}
+
+.listofchallenges::-webkit-scrollbar {
+    width: 12px; 
+}
+
+.listofchallenges::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+.listofchallenges::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 6px;
+}
+
+.listofchallenges::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}

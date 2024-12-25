@@ -1,0 +1,134 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.create-challenge-container {
+    margin: auto;
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+}
+
+.create-challenge-btn {
+    top: 8px;
+    right: 8px;
+    padding: 12px 16px;
+    margin: 10px;
+    background-color: #04395e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.create-challenge-btn:hover {
+    background-color: #70a288;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.create-challenge-btn i {
+  margin-right: 8px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+}
+
+.modal-title {
+  font-size: 24px;
+  margin-bottom: 16px;
+  color: #333;
+}
+
+.challenge-name-input {
+  width: 90%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 16px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.create-btn,
+.cancel-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.create-btn {
+  background-color: #6ea288;
+  color: #fff;
+}
+
+.create-btn i {
+  margin-right: 8px;
+}
+
+.create-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.cancel-btn {
+  background-color: #d5896f;
+  color: #333;
+}
+
+.cancel-btn i {
+  margin-right: 8px;
+}
+
+.file-input {
+    margin-bottom: 16px;
+}
+  
+.parse-btn {
+    padding: 8px 16px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.parse-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.parse-btn i {
+    margin-right: 8px;  
+}

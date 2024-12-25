@@ -1,0 +1,106 @@
+/* SignUp.module.css */
+
+
+.pageLayout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.sign-in-page{
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    flex:1;
+}
+
+.sign-in-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 50%;
+}
+
+.input-container {
+    position: relative; /* Add position relative to position error messages */
+}
+
+.sign-in-container form {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.sign-in-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sign-in-container input[type='email'],
+.sign-in-container input[type='password'],
+.sign-in-container input[type='text'],
+.sign-in-container textarea {
+    width: calc(100% - 22px);
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.sign-in-container .button-container {
+    width: 100%;
+    margin-bottom: 20px; /* Add margin-bottom to create space */
+}
+
+.sign-in-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.sign-in-container button:hover {
+    background-color: #0056b3;
+}
+
+.sign-in-container div {
+    margin-top: 20px;
+}
+
+.sign-in-container div a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.sign-in-container div a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    position: absolute; /* Position the error messages absolutely */
+    bottom: -7px; /* Adjust the positioning */
+    font-size: 12px; /* Adjust font size */
+    color: red; /* Error message color */
+}
+
+ .imageContent {
+     flex: 1;
+ }
+
+ .imageContent img {
+     max-width: 100%;
+     height: auto;
+ }
+
+  .logo img {
+      height: 100px;
+      padding: 20px;
+  }

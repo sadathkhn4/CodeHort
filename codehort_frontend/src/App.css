@@ -1,0 +1,53 @@
+.App {
+  display: flex;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  max-width: 400px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+  background-color: white;
+}
+
+.linkedin-logo {
+  width: 130px;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  width: 50%;
+  border-radius: 5%;
+}
+
+.login-button:hover {
+  background-color: #005f93;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}

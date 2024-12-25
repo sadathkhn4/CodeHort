@@ -1,0 +1,88 @@
+.leaderboard {
+    margin-top: 20px;
+    width: 98%;
+  }
+  
+  .leaderboard h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .currentUser {
+    border: 2px solid #f2c993; 
+    background-color: #fff !important; /* Set the desired background color for the current user's row */
+  }
+  
+  .leaderboard tr {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .leaderboard tr:hover {
+    transform: translateY(-5px);
+  }
+
+  .leaderboard th {
+    flex: 1 1 0; /* Set flex-grow, flex-shrink, and flex-basis */
+    text-align: center;
+    border-bottom: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 0 10px;
+  }
+  
+
+  .leaderboard td {
+    flex: 1 1 0; /* Set flex-grow, flex-shrink, and flex-basis */
+    text-align: center;
+    border-bottom: none;
+    background-color: transparent;
+    padding: 0 10px;
+  }
+  
+  .leaderboard th:nth-child(2),
+  .leaderboard td:nth-child(2) {
+    flex-grow: 2; /* Increase the width of the username column */
+    padding-left: 2em;
+  }
+  
+  .leaderboard .additional-ranks {
+    display: none;
+  }
+  
+  .leaderboard .additional-ranks.show {
+    display: block;
+  }
+  
+  /* New styles for the row with the downward arrow */
+  .leaderboard tr.toggle-row {
+    justify-content: center;
+    background-color: transparent; /* Remove the background color */
+    box-shadow: none; /* Remove the box shadow */
+    padding: 10px 0; /* Adjust the padding */
+    cursor: pointer;
+    padding-left: 1.5em;
+  }
+  
+  .leaderboard tr.toggle-row:hover {
+    transform: none; /* Remove the hover effect */
+  }
+
+  a:hover{
+    text-decoration: underline !important;
+    cursor: pointer;
+  }

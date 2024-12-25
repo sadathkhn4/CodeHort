@@ -1,0 +1,93 @@
+/* GroupTile.module.css */
+* {
+    font-family: Whitney, sans-serif;
+}
+
+.group-tile {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    width: 165px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: #dab7850f;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.group-image {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.group-info {
+    margin-top: 12px;
+    color: #04395e;
+    text-align: center;
+}
+
+.group-name {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.group-name:hover {
+    white-space: normal;
+}
+
+.member-count {
+    font-size: 12px;
+    color: #04395e9e;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.join-button {
+    top: 8px;
+    right: 8px;
+    padding: 8px 16px;
+    margin: 8px;
+    background-color: #04395e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.join-button:hover {
+    background-color: #70a288;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.group-tile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.group-tile:hover .group-image {
+    transform: scale(1.03);
+}
+
+.request-sent-button {
+    top: 8px;
+    right: 8px;
+    padding: 8px 16px;
+    margin: 8px;
+    background-color: #04395e;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: not-allowed;
+    transition: background-color 0.3s ease;
+    opacity: 0.5;
+}

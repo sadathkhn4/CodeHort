@@ -1,0 +1,117 @@
+
+.dashboad {
+    display: flex;
+    flex-direction: column; 
+    width: 45%;
+    margin: auto;
+    margin-top: 20px; 
+    padding: 20px;
+   
+    background-color: #fbf1e3;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+}
+
+.challengesContainer {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0f5f1;
+    
+}
+
+.progressContainer{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    padding: 1em;
+}
+
+.progressChart{
+   
+    justify-content: center;
+    align-items: center;
+    width:30%;
+    margin: 20px; 
+    padding-left:40px;
+    padding-right: 50px;
+   
+    
+}
+
+.progressText{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width:35%;
+    margin: 30px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff8c;
+    font-size: 1.1rem; /* Increase the font size */
+    font-weight: 200; 
+
+}
+.progressAttribute{
+    padding: 10px 5px;
+}
+
+.prob {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.prob:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.challenge_tile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 98%;
+}
+
+.challenge_tile:hover {
+    transform: translateY(-5px); 
+}
+
+.checkbox {
+    margin-left: auto;
+}
+
+.challenge_tile span {
+    word-wrap:break-word;
+}
+
+.challenge_body{
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+}
+.listofchallenges{
+    width: 98%;
+}
+
+.challenge_cont{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
